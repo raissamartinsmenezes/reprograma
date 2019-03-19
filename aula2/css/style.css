@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;   
+}
+
+.navegacao__menu {
+    list-style: none;
+    padding-left: 0;
+}
+
+.navegacao__menu li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.navegacao__logo {
+    width: 220px;
+}
+
+/* .conteudo {
+    margin: 0 auto;
+} */
+
+.conteudo__container {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo__autora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudo__foto {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.conteudo__perfil {
+    width: 200px;
+    padding-top: 15px;
+}
+
+.conteudo__nome {
+    font-weight: bold;
+}
+
+.conteudo__artigo {
+    width: 500px;
+}
+
+/* .conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.conteudo__perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.conteudo__artigo {
+    width: 500px;
+    margin-left: 30px;
+}
+
+.perfil__nome {
+    font-weight: bold;
+}
+
+.perfil__foto {
+    width: 250px;
+    height: 258px;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} */
+
