@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+
+</head>
+<body>
+    <h1>Preencha aqui</h1>
+    <section>
+
+        <form action="#" method="GET">
+
+            <div>
+                <label for="nome-da-pessoa">Nome</label>
+                <input type="text" placeholder="Escreva seu nome" name="nome-da-pessoa">
+            </div>
+
+            <div>
+                <label for="senha-da-pessoa">Senha</label>
+                <input type="password" placeholder="Digite sua Senha" name="senha-da-pessoa">
+            </div>
+
+            <div>
+                <label for="email-da-pessoa">Seu email</label>
+                <input type="email" placeholder="Seu email vai aqui" name="email-da-pessoa">
+            </div>
+
+            <div>
+                <label for="idade-da-pessoa">Sua idade</label>
+                <input type="number" placeholder="Sua idade vai aqui" name="idade-da-pessoa">
+            </div>
+
+            <div>
+                <label for="interesse">Áreas de interesse</label>
+                <input type="checkbox" name="interesse" value="Tecnologia"><span>Tecnologia</span>
+                <input type="checkbox" name="interesse" value="Arquitetura"><span>Arquitetura</span>
+                <input type="checkbox" name="interesse" value="Literatura"><span>Literatura</span>
+            </div>
+
+            <div>
+                <label for="profissao">Selecione a sua profissão:</label>
+                <input type="radio" name="profissao" value="programadora"><span>Programadora</span>
+                <input type="radio" name="profissao" value="designer"><span>Designer</span>
+                <input type="radio" name="profissao" value="arquiteta"><span>Arquiteta</span>
+            </div>
+
+            <div>
+                <label for="cidade-da-pessoa">Sua cidade</label>
+                <select name="cidade-da-pessoa">
+                    <option value="sao-paulo">São Paulo</option>
+                    <option value="rio-de-janeiro">Rio de Janeiro</option>
+                    <option value="ribeirao-pires">Ribeirão Pires</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="vida">Conte a sua vida:</label>
+                <textarea name="vida" rows="5" cols="20" placeholder="Estudei na reprograma..."></textarea> <!--o placeholder não funciona quando o texto (setar um valor ou usar um value="") está dentro da tag-->
+            </div>
+             
+            <input type="submit" value="Enviar">
+              
+        </form>
+
+    </section>
+</body>    
+</html>
