@@ -1,7 +1,7 @@
 # reprograma-semana-02
 turma 7 | front-end | 2019 | exercícios de fundamentos de HTML e CSS
 
-aula-01/
+aula-01/ <br>
   | exercício - minha primeira página
 aula-02/
   | exercício - mulheres em tech
