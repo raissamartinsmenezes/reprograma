@@ -1,5 +1,5 @@
 # reprograma-semana-02
-turma 7 | front-end | 2019 | exercícios de fundamentos de HTML e CSS
+turma 7 | bootcamp front-end | 2019 | exercícios e projetos 
 
 aula-01/ <br>
   | exercício - minha primeira página <br>
