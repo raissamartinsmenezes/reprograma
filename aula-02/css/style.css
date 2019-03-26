@@ -20,12 +20,6 @@ body {
     box-shadow: 0px 3px 4px -2px rgba(0, 0, 0, 0.15); 
 }
 
-@media (max-width: 420px) {
-    .menu {
-      display: none;
-    }
-
-  }
 
 .menu {
     list-style: none;
@@ -49,48 +43,44 @@ body {
     width: 220px;
 }
 
-@media (max-width: 420px) {
-    .logo {
-      margin: 0 auto;
-    }
-
-  }
 
 .conteudo {
     margin-top: 50px;
     height: 50%;
 }
 
-@media (max-width: 420px) {
-    .conteudo {
-      margin-top: 8%;
-    }
-
-  }
 
 .container {
     margin: 0 auto;
-    width: 800px;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 768px) {
     .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin-top: 5%;
+        
     }
 
-  }
+    .artigo {
+        margin-top: 5%;
+
+    }
+}
+
 
 .autora {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 
 
 .autora__foto {
@@ -108,16 +98,9 @@ body {
 }
 
 .artigo {
-    width: 500px;
+    width: 100%;
+    margin-left: 5%;
 }
-
-@media (max-width: 420px) {
-    .artigo {
-      width: 80%;
-      margin-top: 3%;
-    }
-
-  }
 
 .artigo__lista {
     padding-left: 15px;

@@ -1,3 +1,5 @@
+
+
 body {
     background-color: rgba(179, 130, 186, 36%);
     font-family: 'Montserrat', sans-serif;
@@ -7,6 +9,15 @@ body {
 .cabecalho {
     text-align: center;
 }
+
+@media (max-width: 420px) {
+    .cabecalho {
+        margin-top: 8%;
+        
+        
+    }
+
+  }
 
 .cabecalho__titulo {
     color: #5d1277;
@@ -19,6 +30,18 @@ body {
     width: 700px;
 }
 
+@media (max-width: 420px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+
+}
+
+
+
 .container__conteudo, .container__ilustracao {
     display: inline-block;
     width: 300px;
@@ -26,8 +49,23 @@ body {
     vertical-align: middle;
 }
 
+@media (max-width: 420px) {
+    .container__conteudo {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container__conteudo p {
+        text-align: center;
+    }
+
+  }
+
+
 .conteudo__subtitulo {
-    margin: 10px 0;
+    margin: 0 auto;
     font-size: 16px;
 }
 
@@ -53,4 +91,10 @@ body {
 
 .ilustracao__gif {
     width: 320px;
+}
+
+@media (max-width: 420px) {
+    .ilustracao__gif {
+        margin-top: 30px;
+    }
 }
