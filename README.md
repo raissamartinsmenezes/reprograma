@@ -1,5 +1,5 @@
 # {reprograma}
-turma 7 | bootcamp front-end | 2019 | exercícios e projetos 
+turma 7 | bootcamp front-end | 2019 | exercícios em desenvolvimento
 
 aula-01/ <br>
   | exercício - minha primeira página <br>
