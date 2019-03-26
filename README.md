@@ -1,4 +1,4 @@
-# reprograma-semana-02
+# reprograma
 turma 7 | bootcamp front-end | 2019 | exercícios e projetos 
 
 aula-01/ <br>
