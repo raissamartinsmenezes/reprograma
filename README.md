@@ -2,14 +2,17 @@
 turma 7 | bootcamp front-end | 2019 | exercícios em desenvolvimento
 
 aula-01/ <br>
-  | exercício - minha primeira página <br>
+  .exercício - minha primeira página <br>
 aula-02/ <br>
-  | exercício - mulheres em tech <br>
+  .exercício - mulheres em tech <br>
 aula-03/ <br>
-  | exercício - coding dojo <br>
+  .exercício - coding dojo <br>
 aula-04/ <br>
-  | estudo - formulário <br>
-  | exercício - formulário <br>
+  .estudo - formulário <br>
+  .exercício - formulário <br>
 aula-05/ <br>
-  | exercício - site <br>
-  | exercício - tabela <br>
+  .exercício - site <br>
+  .exercício - tabela <br>
+aula-08/ <br>
+  .estudo - responsividade - minha primeria página<br>
+  .estudo - responsividade - mulheres em tech <br>
