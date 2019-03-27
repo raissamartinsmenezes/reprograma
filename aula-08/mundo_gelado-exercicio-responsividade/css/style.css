@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navegacao {
+    background-color: #a0bed0;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none; 
+    justify-content: flex-end;
+    padding: 3% 2%;
+}
+
+.cabecalho {
+    background: url(../img/foto-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.cabecalho--preto {
+    color: white;
+    background-color: black;
+    height: 45vh;
+}
+
+.conteudo-principal {
+    margin: 8% auto;
+}
+
+.siberia {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 5% auto;
+}
+
+.siberia img {
+    width: 70%;
+}
+
+.siberia-texto {
+    margin-left: 2%;
+}
+
+.outros-lugares {
+    width: 80%;
+    margin: 3% auto;
+}
+
+.outros-lugares img {
+    width: 50%;
+}
+
+.outros-lugares--bloco {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.groelandia-texto {
+    margin-left: 2%;
+    color: #ffff;
+}
+
+.antartida-texto {
+    margin-right: 2%;
+    text-align: right;
+    color: #ffff;
+}
+
+/* .rodape {
+    background: url(../img/foto-footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+} */
+
+.rodape-alinhar {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    border: 1px solid #ffff;
+    color: #ffff;   
+}
+
+.contato {
+    background-color: black;
+}
+
+.contato-conteudo {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.contato-conteudo ul {
+    list-style-type: none; 
+    display: flex;
+}
+
+.localizacao, .formulario, .contato-conteudo {
+    border: 1px solid #ffff;
+}
