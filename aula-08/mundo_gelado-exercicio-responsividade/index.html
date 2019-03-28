@@ -16,25 +16,37 @@
         </ul>
     </nav>
 
-    <header>
-        <section class="cabecalho">
-            <h1>Mundo Gelado</h1>
-            <p>A agência de viagens que te leva aos lugares mais congelantes do planeta</p>
-            <button>Quero saber mais</button>
+    <header class="cabecalho">
+        
+        <section>
+            <div class="cabecalho-texto titulo">
+                <h1 class="texto mundo-gelado">Mundo Gelado</h1>
+                <p class="texto fonte-tamanho cinza">A agência de viagens que te leva aos lugares</p>
+                <p class="texto fonte-tamanho cinza">mais congelantes do planeta</p>
+                <button class="botao">Quero saber mais</button>
+            </div>         
         </section>
 
-        <section class="cabecalho--preto">
-            <h3>A agência mundo gelado</h3>
-            <p>Nosso diferencial é te levar para conhecer as mais lindas e geladas paisagens no nosso planeta, com conforto e segurança. Nossos pacotes são completos e oferecem uma experiência inesquecível para você.
-            Veja abaixo nossos destinos disponíveis, e se tiver alguma dúvida ou sugestão, entre em contato com a gente.</p>
-        </section>
+        <!-- <div class="botao">
+            <button>Quero saber mais</button>
+        </div> -->
+
     </header>
+        
+    <section class="cabecalho--preto">
+        <div class="cabecalho-texto secao">
+            <h3 class="texto fonte-tamanho espacamento">A agência Mundo Gelado</h3>
+            <p class="texto">Nosso diferencial é te levar para conhecer as mais lindas e geladas paisagens no nosso planeta, com conforto e segurança. Nossos pacotes são completos e oferecem uma experiência inesquecível para você.
+            Veja abaixo nossos destinos disponíveis, e se tiver alguma dúvida ou sugestão, entre em contato com a gente.</p>
+        </div>        
+    </section>
+    
 
     <main class="conteudo-principal">
         <section class="siberia">
             <img src="./img/siberia-1.jpg" alt="">
             <div class="siberia-texto">
-                <h4>Sibéria</h4>
+                <h4 class="fonte-tamanho">Sibéria</h4>
                 <p>O clima varia entre o clima polar e o clima continental. Na Sibéria situa-se o local habitado mais frio do mundo, a aldeia de Oymyakon.</p>
             </div>
         </section>
@@ -43,14 +55,14 @@
             <div class="outros-lugares--bloco">
                 <img src="./img/groenlandia-1.jpg">
                 <div class="groelandia-texto">
-                    <h4>Groenlândia</h4>
-                    <p>A Groenlândia é a maior ilha do mundo e tem mais de 44 000 km de linha de costa. A população é escassa, confinada a pequenos povoados na costa. A ilha tem a segunda maior reserva de gelo do mundo, apenas ultrapassada pela Antártida.</p>
+                    <h4 class="fonte-tamanho">Groenlândia</h4>
+                    <p class="texto-mosaico">A Groenlândia é a maior ilha do mundo e tem mais de 44 000 km de linha de costa. A população é escassa, confinada a pequenos povoados na costa. A ilha tem a segunda maior reserva de gelo do mundo, apenas ultrapassada pela Antártida.</p>
                 </div>
             </div>
             <div class="outros-lugares--bloco">
                 <div class="antartida-texto">
-                    <h4>Antártida</h4>
-                    <p>É o continente mais frio, mais seco, com a maior média de altitude e de maior índice de ventos fortes do planeta.[1] A temperatura mais baixa da Terra (-89,2 °C) foi registrada na Antártica, sendo a temperatura média na costa, durante o verão, de -10 °C; no interior do continente, é de -40 °C</p>
+                    <h4 class="fonte-tamanho">Antártida</h4>
+                    <p class="texto-mosaico">É o continente mais frio, mais seco, com a maior média de altitude e de maior índice de ventos fortes do planeta.[1] A temperatura mais baixa da Terra (-89,2 °C) foi registrada na Antártica, sendo a temperatura média na costa, durante o verão, de -10 °C; no interior do continente, é de -40 °C</p>
                 </div>
                 <img src="./img/antartida-1.jpg">
             </div>
@@ -67,14 +79,22 @@
         
         <form class="formulario">
             <div> 
-                <label>Nome Completo</label>
-                <input>
-                <label>Email</label>
-                <input>
-                <label>Telefone</label>
-                <input>
-                <label>Mensagem</label>
-                <input>  
+                <div>
+                    <label>Nome Completo</label>
+                    <input>
+                </div>
+                <div>
+                    <label>Nome Completo</label>
+                    <input>
+                </div>
+                <div>
+                    <label>Nome Completo</label>
+                    <input>
+                </div>
+                <div>
+                    <label>Nome Completo</label>
+                    <input>
+                </div> 
             </div>
             <button>Enviar</button>
             </form> 
@@ -84,13 +104,13 @@
     <footer class="contato">
         <div class="rodape-alinhar">
             <div class="contato-conteudo">
-                <p>Telefone: (11) 1234-5678</p>
-                <ul>
-                    <li><img src="./img/twitter.png"></li>
-                    <li><img src="./img/facebook.png"></li>
-                    <li><img src="./img/youtube.png"></li>
+                <p class="cor-azul">Telefone: (11) 1234-5678</p>
+                <ul class="lista-contato">
+                    <li><img class="img-tamanho" src="./img/twitter.png"></li>
+                    <li><img class="img-tamanho" src="./img/facebook.png"></li>
+                    <li><img class="img-tamanho" src="./img/youtube.png"></li>
                 </ul>
-                <p>Copyright © Agência Mundo gelado 2018</p>
+                <p>Copyright © Agência Mundo Gelado 2018</p>
             </div>
         </div>
     </footer>
