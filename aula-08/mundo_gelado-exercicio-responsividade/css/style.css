@@ -45,6 +45,7 @@ p {
     text-transform: uppercase;
     color: #ffff;
     font-weight: normal;
+    letter-spacing: 8px;
 }
 
 .texto {
@@ -123,6 +124,18 @@ p {
     width: 80%;
     margin: 3% auto;
 }
+
+/* @media (max-width: 420px) {
+    .outros-lugares--bloco {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .outros-lugares img {
+        width: 400px;
+        height: 400px;
+    }
+} */
 
 .texto-mosaico {
     padding-top: 10px;
